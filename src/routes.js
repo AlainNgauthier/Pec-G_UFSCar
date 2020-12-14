@@ -8,6 +8,7 @@ import Home from './Components/Pages/Home';
 import Erro from './Components/Pages/Erro';
 import Cronologia from './Components/Pages/Cronologia';
 import Formados from './Components/Pages/Formados';
+// import SobrePecg from './Components/SobrePecg';
 
 const Routes = () => {
     // 
@@ -23,6 +24,7 @@ const Routes = () => {
             <Sidebar isOpen={isOpen} toogle={toogle} />
             <Switch>
                 <Route exact path="/" component={Home} />
+                {/* <Route exact path="/sobre" component={SobrePecg} /> */}
                 <Route exact path="/crono" component={Cronologia} />
                 <Route exact path="/formados" component={Formados} />
                 <Route exact path="*" component={Erro}/>

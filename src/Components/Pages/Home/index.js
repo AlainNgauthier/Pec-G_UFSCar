@@ -1,10 +1,14 @@
 import React from 'react';
+import './Home.css';
+import VideoHome from '../../VideoHome';
+import SobrePecg from '../../SobrePecg';
 
 const Home = () => {
     return(
-        <div>
-            HOME
-        </div>
-    )
+        <>
+            <VideoHome />
+            <SobrePecg />
+        </>
+        );
 }
 export default Home;

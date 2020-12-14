@@ -8,13 +8,13 @@ const Navbar = ({toogle}) => {
         <>
             <Nav>
                 <NavLogo to="/">
-                    <h1>Pec-G</h1>
+                    <h1>PEC-G</h1>
                 </NavLogo>
                 <Bars onClick={toogle} />
                 <NavMenu>
-                    <NavLink to="/sobre">
+                    {/* <NavLink to="/sobre">
                         Sobre o Pec-G
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/formados">
                         Formados
                     </NavLink>

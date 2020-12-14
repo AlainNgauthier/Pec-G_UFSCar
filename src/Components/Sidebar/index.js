@@ -18,7 +18,7 @@ const Sidebar = ({isOpen, toogle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='sobre' onClick={toogle}>Sobre o PEC-G</SidebarLink>
+                    {/* <SidebarLink to='sobre' onClick={toogle}>Sobre o PEC-G</SidebarLink> */}
                     <SidebarLink to='formados' onClick={toogle}>Formados</SidebarLink>
                     <SidebarLink to='crono' onClick={toogle}>Cronologia</SidebarLink>
                 </SidebarMenu>

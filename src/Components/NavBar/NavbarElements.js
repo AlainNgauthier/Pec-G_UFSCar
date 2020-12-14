@@ -10,18 +10,16 @@ export const Nav = styled.nav`
     z-index: 10;
     font-size: 1rem;
 `
-
 export const NavLogo = styled(Link)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 5rem;
     font-weight: bold;
     text-decoration: none;
 `
-
 export const NavLink = styled(Link)`
     color: #fff;
     display: flex;
@@ -34,6 +32,7 @@ export const NavLink = styled(Link)`
 
     &.active{
         border-bottom: 0.3rem solid #33a0ff;
+        color:#33a0ff;
     }
     &:hover{
         color:#33a0ff;
@@ -53,11 +52,10 @@ export const Bars = styled(FaBars)`
             cursor: pointer;
         }
 `
-
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-right: 10rem;
+    margin-right: 5rem;
 
     @media screen and (max-width: 76.8rem){
         display: none;

@@ -1,0 +1,31 @@
+.crono{
+    background-image: url(../../Assets/Images/Cornered-Stairs.svg);
+    background-color: #121214;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.crono .crono__content{
+    background-color: #121214;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.crono__content .crono__content-title{
+    margin: 1rem 0;
+}
+.crono__content .crono__content-primary{
+    padding: 1rem 1rem;
+}
+.crono__content .crono__content-secondary{
+    padding: 1rem 2rem;
+}
