@@ -9,6 +9,8 @@ export const Nav = styled.nav`
     justify-content: space-between;
     z-index: 10;
     font-size: 1rem;
+    width:100%;
+    position: fixed;
 `
 export const NavLogo = styled(Link)`
     color: #fff;

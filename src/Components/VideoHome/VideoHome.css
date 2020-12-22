@@ -46,4 +46,8 @@ video{
 .video__content-title h1{
     text-align: center;
     font-size: 3rem;
+    color: #fff;
+}
+span{
+    color: #fff;
 }

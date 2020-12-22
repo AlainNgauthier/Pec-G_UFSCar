@@ -12,9 +12,6 @@ const Navbar = ({toogle}) => {
                 </NavLogo>
                 <Bars onClick={toogle} />
                 <NavMenu>
-                    {/* <NavLink to="/sobre">
-                        Sobre o Pec-G
-                    </NavLink> */}
                     <NavLink to="/formados">
                         Formados
                     </NavLink>

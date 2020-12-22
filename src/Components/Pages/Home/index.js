@@ -1,13 +1,13 @@
 import React from 'react';
 import './Home.css';
 import VideoHome from '../../VideoHome';
-import SobrePecg from '../../SobrePecg';
+import SobreSite from '../../SobreSite';
 
 const Home = () => {
     return(
         <>
             <VideoHome />
-            <SobrePecg />
+            <SobreSite />
         </>
         );
 }
