@@ -7,7 +7,9 @@
     justify-content: center;
     padding: 1rem;
     font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
 }
+
 .crono .crono__content{
     background-color: #121214;
     color: #fff;
@@ -15,17 +17,21 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
+    margin-top: 100px;
     padding: 0.7rem;
     border-radius: 5px;
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
     z-index: 2;
+    text-align: center;
 }
 .crono__content .crono__content-title{
     margin: 1rem 0;
 }
+
 .crono__content .crono__content-primary{
     padding: 1rem 1rem;
 }
+
 .crono__content .crono__content-secondary{
     padding: 1rem 2rem;
 }

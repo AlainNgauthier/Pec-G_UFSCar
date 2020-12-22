@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SobreSite.css';
 
 import Anos50UFSCar from '../Assets/Images/50ufscar.jpg';
@@ -25,8 +26,12 @@ const SobreSite = () => {
                 </p>
                 <hr/>
                 <div className="about__content-second">
-                    <img src={Anos50UFSCar} alt="50anos" title="50 anos UFSCar"/>
-                    <img src={UFSCarPhoto} alt="USFCar" title="UFSCar" />
+                    <Link to={{ pathname: "https://www.50anos.ufscar.br/" }} target="_blank">
+                        <img src={Anos50UFSCar} alt="50anos" title="50 anos UFSCar"/>
+                    </Link>
+                    <Link to={{ pathname: "https://www2.ufscar.br/" }} target="_blank">
+                        <img src={UFSCarPhoto} alt="USFCar" title="Site oficial UFSCar" />
+                    </Link>
                     {/* <img src={PECG} alt="pecg" title="PEC-G"/> */}
                 </div>
             </div>
