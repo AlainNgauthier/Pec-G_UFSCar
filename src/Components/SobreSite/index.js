@@ -4,7 +4,7 @@ import './SobreSite.css';
 
 import Anos50UFSCar from '../Assets/Images/50ufscar.jpg';
 import UFSCarPhoto from '../Assets/Images/logoUfscar.jpg';
-//import PECG from '../Assets/Images/pec-g.png';
+import PECG from '../Assets/Images/pec-g.png';
 
 const SobreSite = () => {
     return(
@@ -39,6 +39,9 @@ const SobreSite = () => {
                     Pegue sua mochila. Escolha seu assento para iniciar a viagem. Prepare os olhos, a mente e o coração.
                 </p>
                 <span className="bom-passeio" >Bom passeio "entre Continentes"!</span>
+                <span className="logo-pecg" >
+                    <img src={PECG} alt="logo-pecg" />
+                </span>
             </div>
                 
                 <div className="about__content-primary"> 

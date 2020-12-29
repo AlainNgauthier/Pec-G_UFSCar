@@ -24,7 +24,6 @@ const Routes = () => {
             <Sidebar isOpen={isOpen} toogle={toogle} />
             <Switch>
                 <Route exact path="/" component={Home} />
-                {/* <Route exact path="/sobre" component={SobrePecg} /> */}
                 <Route exact path="/crono" component={Cronologia} />
                 <Route exact path="/formados" component={Formados} />
                 <Route exact path="*" component={Erro}/>

@@ -11,6 +11,7 @@ export const Nav = styled.nav`
     font-size: 1rem;
     width:100%;
     position: fixed;
+    margin-bottom: 10px;
 `
 export const NavLogo = styled(Link)`
     color: #fff;
