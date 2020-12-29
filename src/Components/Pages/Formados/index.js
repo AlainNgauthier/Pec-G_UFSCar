@@ -5,6 +5,7 @@ const Formados = () => {
     return(
         <div className="formados" id="formados" >
             FORMADOS
+            abcd
         </div>
     )
 }

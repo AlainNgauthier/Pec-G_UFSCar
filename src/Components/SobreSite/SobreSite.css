@@ -9,16 +9,29 @@
     line-height: 1.75;
 }
 
-.about .about__content-primary{
+.about-pecg{
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.bom-passeio{
+    color: #414141;
+    font-weight: 700;
+}
+
+.about__content-primary{
     display: flex;
     flex-direction: column;
     justify-content: center;
     /*height: 500px;*/
-    max-width: 620px;
+    max-width: 700px;
     text-align: center;
 }
-.about__content-primary hr{
-    margin: 30px 0;
+
+hr{
+    color: #414141;
+    margin: 20px 0;
 }
 
 .about__content-second{
