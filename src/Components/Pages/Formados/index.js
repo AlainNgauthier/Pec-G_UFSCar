@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './formados.css';
 
 const Formados = () => {
@@ -17,6 +18,9 @@ const Formados = () => {
                         Engenharia de Materiais, Engenharia Física, Biotecnologia, Ciência da Computação,
                         Física, Química, Ciências Biológica, Ciências Sociais, Psicologia e Filosofia. 
                     </p>
+                    <div className="btn">
+                        <Link to="/formados_saocarlos">Formados de São Carlos</Link>
+                    </div>
                 </div>
                 <div className="formados__content-campi " >
                     <h2>Araras</h2>
@@ -26,6 +30,9 @@ const Formados = () => {
                         Bolívia, Paraguai e Peru (América Latina). Formaram-se, até o momento, 6 estudantes,
                         nos cursos de Engenharia Agronômica e de Biotecnologia.
                     </p>
+                    <div className="btn">
+                        <Link to="/">Formados de Araras</Link>
+                    </div>
                 </div>
                 <div className="formados__content-campi " >
                     <h2>Sorocaba</h2>
@@ -36,6 +43,9 @@ const Formados = () => {
                         de palestras nas escolas e no próprio campus. Já se formaram 5 estudantes nos cursos de 
                         Administração, Ciências Econômicas, Engenharia de Produção e Turismo.
                     </p>
+                    <div className="btn">
+                        <Link to="/">Formados de Sorocaba</Link>
+                    </div>
                 </div>
             </div>
         </div>
