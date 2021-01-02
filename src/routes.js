@@ -9,6 +9,7 @@ import Erro from './Components/Pages/Erro';
 import Cronologia from './Components/Pages/Cronologia';
 import Formados from './Components/Pages/Formados';
 import Formados_SaoCarlos from './Components/Pages/Formados-sc';
+import Formados_Araras from './Components/Pages/Formados-araras';
 // import SobrePecg from './Components/SobrePecg';
 
 const Routes = () => {
@@ -28,6 +29,7 @@ const Routes = () => {
                 <Route exact path="/crono" component={Cronologia} />
                 <Route exact path="/formados" component={Formados} />
                 <Route exact path="/formados_saocarlos" component={Formados_SaoCarlos} />
+                <Route exact path="/formados_araras" component={Formados_Araras} />
                 <Route exact path="*" component={Erro}/>
             </Switch>
             <Footer/>

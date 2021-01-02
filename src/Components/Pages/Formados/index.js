@@ -19,7 +19,7 @@ const Formados = () => {
                         Física, Química, Ciências Biológica, Ciências Sociais, Psicologia e Filosofia. 
                     </p>
                     <div className="btn">
-                        <Link to="/formados_saocarlos">Formados de São Carlos</Link>
+                        <Link to="/formados_saocarlos"><h3>Formados de São Carlos</h3></Link>
                     </div>
                 </div>
                 <div className="formados__content-campi " >
@@ -31,7 +31,7 @@ const Formados = () => {
                         nos cursos de Engenharia Agronômica e de Biotecnologia.
                     </p>
                     <div className="btn">
-                        <Link to="/">Formados de Araras</Link>
+                        <Link to="/formados_araras"><h3>Formados de Araras</h3></Link>
                     </div>
                 </div>
                 <div className="formados__content-campi " >
@@ -44,7 +44,7 @@ const Formados = () => {
                         Administração, Ciências Econômicas, Engenharia de Produção e Turismo.
                     </p>
                     <div className="btn">
-                        <Link to="/">Formados de Sorocaba</Link>
+                        <Link to="/"><h3>Formados de Sorocaba</h3></Link>
                     </div>
                 </div>
             </div>
