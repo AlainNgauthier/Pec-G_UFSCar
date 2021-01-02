@@ -44,7 +44,7 @@ const Formados = () => {
                         Administração, Ciências Econômicas, Engenharia de Produção e Turismo.
                     </p>
                     <div className="btn">
-                        <Link to="/"><h3>Formados de Sorocaba</h3></Link>
+                        <Link to="/formados_sorocaba"><h3>Formados de Sorocaba</h3></Link>
                     </div>
                 </div>
             </div>

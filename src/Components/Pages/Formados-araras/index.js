@@ -11,7 +11,7 @@ const Formados_Araras = () => {
                 {/* 1 */}
                 <div className="perfil">
                     <div className="perfil__primary">
-                        <h2>Jesus</h2>
+                        <h2>Jésus</h2>
                         <h4>Curso: </h4>
                         <h4>País: Perú</h4>
                     </div>
