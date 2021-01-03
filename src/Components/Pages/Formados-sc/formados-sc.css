@@ -1,5 +1,6 @@
 .content{
     padding-top: 100px;
+    background-color: rgb(243, 243, 243);
 }
 
 .content__wrapper{
@@ -14,12 +15,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 800px;
+    max-width: 1000px;
+    margin: 10px;
     padding: 20px;
     /*modificar p/ mobile*/
 }
 
 .perfil:hover{
+    background-color: #fff;
+    color:  #414141;
     transform: translateY(-3px);
     box-shadow: 0px 5px 10px gray;
 }
@@ -31,6 +35,11 @@
     justify-content: space-between;
     margin-top: 10px;
 }
+
+.perfil__primary h2{
+    font-weight: 800;
+}
+
 .perfil--img{
     display: flex;
     align-items: center;
