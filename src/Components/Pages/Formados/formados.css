@@ -36,3 +36,19 @@
     background-color: #414141;
     /*border-radius: 20%;*/
 }
+
+@media screen and (max-width: 600px){
+    .formados{
+        background-color: #ffff;
+    }
+    .formados__content{
+        padding: 5px;
+    }
+    .formados__content-campi{
+        padding: 10px;
+    }
+    .formados__content-campi:hover{
+        transform: none;
+        transition: none;
+    }
+}

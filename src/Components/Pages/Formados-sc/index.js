@@ -40,7 +40,7 @@ const Formados_SaoCarlos = () => {
                     <div className="perfil__primary">
                         <h2>Alex Yannick Azevedo da Graça</h2>
                         <h4>Curso: Engenharia da Produção - Concluído em 2015</h4>
-                        <h4>País: Cabo verde</h4>
+                        <h4>País: Cabo Verde</h4>
                     </div>
                     <div className="perfil__secondary">
                         <div className="perfil--img">
@@ -191,7 +191,7 @@ const Formados_SaoCarlos = () => {
                         </div>
                         <div className="perfil--text">
                             <p>
-                                "Foi um privelegio estudar em uma das melhores universidades do Brasil, estou muito grato por isso, 
+                                "Foi um privilégio estudar em uma das melhores universidades do Brasil, estou muito grato por isso, 
                                 durante o periodo da minha graduação na UFSCar tive oportunidade de conhecer 
                                 muitas pessoas que vão permanecer para sempre na minha vida.
                             </p>

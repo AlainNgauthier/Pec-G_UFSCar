@@ -48,3 +48,26 @@
 .perfil--text{
     padding: 20px;
 }
+
+@media screen and (max-width: 600px){
+    .content{
+        background-color: #fff;
+    }
+    .content__wrapper{
+        padding: 7px;
+    }
+    .content__wrapper .perfil{
+        width: 93%;
+    }
+    .perfil{
+        margin: 0;
+        padding: 0;
+    }
+    .perfil:hover{
+        transform: none;
+    }
+    .perfil__secondary{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -31,3 +31,17 @@
 .crono__content .crono__content-secondary{
     padding: 1rem 2rem;
 }
+
+@media screen and (max-width: 600px){
+    .crono{
+        background-color: #fff;
+        padding: 0.3rem;
+    }
+    .crono .crono__content{
+        max-width: 95%;
+        text-align: justify;
+    }
+    .crono__content-title{
+        text-align: center;
+    }
+}
