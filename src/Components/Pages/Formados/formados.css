@@ -1,54 +1,58 @@
-.formados{
-    background-color: rgb(243, 243, 243);
-    color: #414141;
-    display: block;
-    padding-top: 100px;
+.formados {
+  background-color: rgb(243, 243, 243);
+  color: #414141;
+  display: block;
+  padding-top: 100px;
 }
 
-.formados__content{
-    font-family: 'Raleway', sans-serif;
-    
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+.formados__content {
+  font-family: "Raleway", sans-serif;
+
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.formados__content-campi{
-    max-width: 600px;
-    padding: 30px;
+.formados__content-campi {
+  max-width: 600px;
+  padding: 30px;
 }
 
-.formados__content-campi:hover{
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
-    transition: all .3s;
+.formados__content-campi:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
 }
 
-.btn a{
-    display: flex;
-    justify-content: center;
+.btn a {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #414141;
+  border-radius: 5px;
+}
+
+.link--enabled:hover {
+  background-color: #33a0ff;
+}
+
+@media screen and (max-width: 600px) {
+  .formados {
+    background-color: #ffff;
+  }
+  .formados__content {
+    padding: 5px;
+  }
+  .formados__content-campi {
     padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #414141;
-    /*border-radius: 20%;*/
-}
-
-@media screen and (max-width: 600px){
-    .formados{
-        background-color: #ffff;
-    }
-    .formados__content{
-        padding: 5px;
-    }
-    .formados__content-campi{
-        padding: 10px;
-    }
-    .formados__content-campi:hover{
-        transform: none;
-        transition: none;
-    }
+  }
+  .formados__content-campi:hover {
+    transform: none;
+    transition: none;
+  }
 }

@@ -30,10 +30,11 @@ const Cronologia = () => {
                     Estudantes (CAAPE). Nos demais campi, esse acompanhamento é realizado pelos Departamentos de Ensino 
                     de Graduação – DeEGs. O acompanhamento acadêmico e pedagógico aos estudantes PEC-G fortaleceu o grupo 
                     de estudantes que passaram a contar com este apoio para sua permanência na instituição, do ponto de vista 
-                    acadêmico.  
+                    acadêmico.
                 </div>
             </div>
         </div>
     )
 }
+
 export default Cronologia;

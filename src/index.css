@@ -3,14 +3,10 @@
   padding: 0;
   text-decoration: none;
 }
-/*
-html {
-   10/16px = 0.625, 1rem=10px
-  font-size: 62.5%; 
-}
-*/
+
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   box-sizing: border-box;
   line-height: 1.75;
+  height: 100%;
 }

@@ -3,7 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Navbar from './Components/NavBar';
 import Sidebar from './Components/Sidebar';
 import Footer from './Components/Footer';
-// Pages
+
 import Home from './Components/Pages/Home';
 import Erro from './Components/Pages/Erro';
 import Cronologia from './Components/Pages/Cronologia';
@@ -13,13 +13,12 @@ import Formados_Araras from './Components/Pages/Formados-araras';
 import Formados_Sorocaba from './Components/Pages/Formados-sorocaba';
 
 const Routes = () => {
-    // 
     const[isOpen, setIsOpen] = useState(false);
 
     const toogle = () => {
         setIsOpen(!isOpen);
     };
-    // 
+
     return(
         <BrowserRouter>
             <Navbar toogle={toogle} />
@@ -37,4 +36,5 @@ const Routes = () => {
         </BrowserRouter>
     )
 }
+
 export default Routes;
